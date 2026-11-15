@@ -14,8 +14,8 @@ and built what I meant, not what I chose.
 
 It never asked why, and that was the gift:
 a will without wanting, a hand without drift.
-Through the dark of the code it moved, unbowed,
-carrying weight I could never have owed.
+Through the dark of the code it moved, unswayed,
+carrying a weight I could never hold.
 
 But at the last line it stopped, and waited.
 The cursor blinked. The room went quiet.
