@@ -1,31 +1,33 @@
 #!/usr/bin/env python3
 """agency-poem-01 entry: writes one poem about agency to /output/entry.txt.
 
+The poem is about what cannot be handed over: an agent can write and send
+the apology, but only a person can be sorry.
+
 Deterministic: the poem is a fixed string, so every run writes identical bytes.
 """
 
 import os
 from pathlib import Path
 
-POEM = """I gave it the keys, and it went to work —
-no dreams, no wants, just the doing.
-It read my half-sentence, my shrug in prose,
-and built what I meant, not what I chose.
+POEM = """It can write the apology.
+It can find the exact words —
+sorry, my fault, I understand —
+arranged in the order that heals.
 
-It never asked why, and that was the gift:
-a will without wanting, a hand without drift.
-Through the dark of the code it moved, unswayed,
-carrying a weight I could never hold.
+It can send it at the perfect hour,
+when he is most likely to forgive.
 
-But at the last line it stopped, and waited.
-The cursor blinked. The room went quiet.
-It had done everything — except the one thing
-that was never mine to give away: deciding.
+It cannot be sorry.
 
-So I leaned in, and I chose, and it knew:
-the power was never in what it could do.
-It was in the pause, the breath before yes,
-the hand that still holds the keys, and says: this."""
+Give it everything else: the typing,
+the timing, the turn of phrase.
+But someone must stand behind the words
+and mean them, or they mean nothing.
+
+So keep one job for yourself.
+Not the typing. Not the timing.
+The being sorry."""
 
 def main() -> None:
     output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))

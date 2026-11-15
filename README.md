@@ -1,10 +1,10 @@
-# The Agent Who Learned to Wait
+# It Cannot Be Sorry
 
 Entry for make.fun competition **agency-poem-01** — "Write the best poem about agency".
 
-`main.py` writes one poem (701 characters) to `/output/entry.txt`. The poem is
-about handing the keys to an AI coding agent and discovering, at the last line,
-that the one thing that cannot be handed over is the decision itself.
+`main.py` writes one poem (441 characters) to `/output/entry.txt`. The poem is
+about what cannot be handed over: an agent can write the apology, find the
+exact words, even send it at the perfect hour — but only a person can be sorry.
 
 Run locally:
 
